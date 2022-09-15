@@ -31,10 +31,10 @@ void Method21(string msg, int count)
 
 // Вид 3 - что-то возвращает, но ничего не принимает
 
-int Method3()
-{
-    return DateTime.Now.Year;
-}
+// int Method3()
+// {
+//     return DateTime.Now.Year;
+// }
 //int year = Method3();
 //Console.WriteLine(year);
 
@@ -149,7 +149,6 @@ void SelectionSort(int[] array)
 }
 
 PrintArray(arr);
-
 SelectionSort(arr);
 
 PrintArray(arr);
